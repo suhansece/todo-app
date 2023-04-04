@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8425daacf8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -37,10 +38,19 @@
                 <li>
                     <div>
                         <input type="checkbox" name="tasks" id="1">
-                        <span>Task one</span>
+                        <span contenteditable>Task one</span>
                     </div>
                     <button title="remove task" id="remove-task">
-
+                        <i class="fa-duotone fa-x"></i>
+                    </button>
+                </li>
+                <li class="completed">
+                    <div>
+                        <input type="checkbox" name="tasks" id="2">
+                        <span>Task two</span>
+                    </div>
+                    <button title="remove task" id="remove-task">
+                        <i class="fa-duotone fa-x"></i>
                     </button>
                 </li>
             </ul>

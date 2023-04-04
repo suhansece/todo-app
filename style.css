@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: lightblue;
+}
 #header{
     background: rgb(10, 10, 58);
     height: 200px;
@@ -65,4 +67,31 @@
 }
 #main-content{
     margin-left: 30%;
+}
+#todo {
+    margin-bottom: 20px;
+}
+
+#todo li{
+    list-style: none;
+    background: #fff;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+#todo li div input{
+    margin: 0 10px;
+}
+#todo li.completed span{
+    text-decoration: line-through;
+}
+#todo li button{
+    height: 30px;
+    margin-right: 25px;
+    width:30px ;
 }
